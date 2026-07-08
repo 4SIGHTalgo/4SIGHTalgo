@@ -1,6 +1,6 @@
 # Paul Vega
 
-### Quant Research | Financial Machine Learning | CS & Mathematics @ University of Maryland
+### Quant Research | Time Series Machine Learning | CS & Mathematics @ University of Maryland
 
 [![Email](https://img.shields.io/badge/Email-vega.paul.pfv%40gmail.com-D14836?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:vega.paul.pfv@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Paul%20Vega-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/paulfvega)
@@ -14,7 +14,7 @@
 class PaulVega:
     def __init__(self):
         self.education = "Computer Science & Mathematics @ University of Maryland"
-        self.focus = "Quantitative research, financial ML, and trading systems"
+        self.focus = "Quantitative research, time series ML, and trading systems"
         self.roles = [
             "Executive Board Member @ Maryland Quant Finance Club",
             "Research Fellow @ Startup Shell"
@@ -23,11 +23,11 @@ class PaulVega:
 
     def research_interests(self):
         return [
-            "Financial time series modeling",
-            "Machine learning for market regimes",
-            "Meta-labeling and signal filtering",
-            "Backtesting and model validation",
-            "Trading infrastructure"
+            "Quantitative research and hypothesis testing",
+            "Time series classification and forecasting",
+            "Machine learning for sequential data",
+            "Labeling and validation methodology",
+            "Trading and execution systems"
         ]
 
     def current_goal(self):
@@ -36,31 +36,25 @@ class PaulVega:
 
 ---
 
-## Current Focus
+## Research Interests
 
-I am focused on building machine learning research pipelines for financial time series. My work centers around turning market hypotheses into structured experiments, validating models under realistic conditions, and developing trading infrastructure that connects research to execution.
-
-Right now, I am especially interested in:
-
-* Financial time series classification
-* Meta-labeling and signal filtering
-* Regime detection
-* CPCV, walk-forward validation, and backtesting
-* Robustness testing for noisy market data
-* Sequence models for market prediction
-* Trading system infrastructure
+Time series machine learning, quantitative research methodology, classification and forecasting for sequential data, labeling and validation frameworks, and infrastructure for turning research into deployed systems.
 
 ---
 
-## Research Areas
+## Current Focus
 
-| Area                       | What I Work On                                                                     |
-| -------------------------- | ---------------------------------------------------------------------------------- |
-| Financial Machine Learning | Models for market regimes, entries, exits, and signal quality                      |
-| Time Series Modeling       | Classification, sequence models, feature pipelines, and noisy-label problems       |
-| Backtesting                | Realistic validation, leakage control, walk-forward testing, and robustness checks |
-| Trading Infrastructure     | Data pipelines, model deployment logic, and strategy execution systems             |
-| Quant Research             | Turning market ideas into testable hypotheses and measurable experiments           |
+I am focused on quantitative research and time series machine learning. My work centers around designing experiments for sequential data, building validation methodology that survives real-world conditions, and developing infrastructure that connects research to execution.
+
+Right now, I am especially interested in:
+
+* Quantitative research design and hypothesis testing
+* Time series classification and forecasting
+* Labeling methodology for sequential data
+* Cross-validation and backtesting frameworks
+* Model validation and robustness testing
+* Sequence models for temporal data
+* Research-to-production infrastructure
 
 ---
 
@@ -117,7 +111,7 @@ Connecting feature computation, model inference, risk logic, and execution into 
 
 I care about building research that survives contact with reality.
 
-In financial machine learning, the hard part is not just getting a model to perform well in a notebook. The hard part is knowing whether the model is learning actual signal, whether the validation process is honest, and whether the system can hold up under changing market conditions.
+The hard part is not just getting a model to perform well in a notebook. The hard part is knowing whether the model is learning actual signal, whether the validation process is honest, and whether the system can hold up under changing conditions.
 
 My goal is to build tools and research processes that make that distinction clearer.
 
@@ -133,7 +127,7 @@ My goal is to build tools and research processes that make that distinction clea
 
 ## Contact
 
-I am interested in quantitative research, financial machine learning, trading systems, and applied AI.
+I am interested in quantitative research, time series machine learning, trading systems, and applied AI.
 
 Reach me at:
 
