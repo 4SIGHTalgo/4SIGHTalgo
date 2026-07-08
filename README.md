@@ -14,7 +14,7 @@
 class PaulVega:
     def __init__(self):
         self.education = "Computer Science & Mathematics @ University of Maryland"
-        self.focus = "Quantitative research, time series ML, and trading systems"
+        self.focus = "Quantitative research, time series Machine Learning, and trading systems"
         self.roles = [
             "Executive Board Member @ Maryland Quant Finance Club",
             "Research Fellow @ Startup Shell"
