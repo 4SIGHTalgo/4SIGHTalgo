@@ -91,21 +91,25 @@ Right now, I am especially interested in:
 
 ## Featured Work
 
-### Quant Research Pipelines
+### Classification on Triple‑Barrier Problems Within a Convex Payoff Structure (3‑Part Paper)
 
-Building research workflows for financial machine learning, including data preparation, feature generation, model training, validation, and backtesting.
+Research on building robust ML models for proprietary trading firm challenges. Demonstrates that symmetric triple-barrier labels fail under convex payout constraints (daily loss limits, drawdown rules, scaling targets), proposes a stricter validation pipeline, and introduces a prop-firm bootstrap tool for account-level pass/fail simulation. The findings directly motivated the development of `finShell`.
 
-### Market Regime Modeling
+[Download PDF](https://github.com/4SIGHTalgo/4SIGHTalgo/raw/main/saber_classification_triple_barrier_parts_1_to_3.pdf)
 
-Exploring classification models and time series methods for identifying market conditions, signal quality, and trade filtering opportunities.
+### finShell — Financial Label & Backtest Validation Engine
 
-### Backtesting & Validation
+`finShell` is a model-free Python validation framework for triple-barrier labeling, CPCV, block bootstrap null tests, and sealed out-of-sample quarantine. Used throughout my research pipeline to audit labels, selectors, and backtests before forward testing. Published on PyPI.
 
-Developing validation workflows that reduce leakage, overfitting, and false confidence in trading strategy research.
+[PyPI](https://pypi.org/project/finshell/) · [GitHub](https://github.com/4SIGHTalgo/finShell)
+
+### Mid‑Frequency Trading Research Pipeline
+
+End‑to‑end ML research infrastructure for financial time series: feature engineering (fractional differentiation, CUSUM filters, sentiment signals), classification models (XGBoost with Optuna tuning), purged cross-validation, regime detection, and live inference with regime routing and feature throughput monitoring.
 
 ### Trading Infrastructure
 
-Working on systems that connect live data, model outputs, risk logic, and execution rules into practical trading workflows.
+Connecting feature computation, model inference, risk logic, and execution into automated trading workflows with real-time data pipelines and Supabase-backed storage.
 
 ---
 
