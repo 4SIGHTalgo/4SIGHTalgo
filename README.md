@@ -11,43 +11,55 @@
 
 ## About
 
-I build research systems end to end: from hypothesis design and labeling methodology, through statistically validated ML experiments, to deployed software. My forte is quantitative research on sequential data, but the work spans open-source Python packages, desktop tooling, embedded machine learning in constrained runtimes, and cloud research infrastructure.
+```python
+class PaulVega:
+    def __init__(self):
+        self.education = "Computer Science & Mathematics @ University of Maryland"
+        self.focus = "Quantitative research, time series Machine Learning, and research systems"
+        self.roles = [
+            "Executive Board Member @ Maryland Quant Finance Club",
+            "Research Fellow @ Startup Shell"
+        ]
+        self.email = "vega.paul.pfv@gmail.com"
 
-The thread connecting everything: **research that survives contact with reality.** A model that looks good in a notebook is a hypothesis, not a result. The interesting problems are honest validation, leakage control, and knowing when a system is learning signal versus memorizing noise.
+    def research_interests(self):
+        return [
+            "Quantitative research and hypothesis testing",
+            "Time series classification and forecasting",
+            "Labeling and validation methodology",
+            "Statistical robustness and leakage control",
+            "Research-to-production infrastructure"
+        ]
+
+    def current_goal(self):
+        return "Build research that survives contact with reality."
+```
+
+I build research systems end to end: from hypothesis design and labeling methodology, through statistically validated ML experiments, to deployed software. My forte is quantitative research on sequential data, but the work spans open-source Python packages, desktop tooling, and cloud research infrastructure.
+
+A model that looks good in a notebook is a hypothesis, not a result. The interesting problems are honest validation, leakage control, and knowing when a system is learning signal versus memorizing noise.
 
 ---
 
 ## Research & Projects
 
-### 📄 Classification on Triple-Barrier Problems Within a Convex Payoff Structure — 3-Part Paper
+### Classification on Triple-Barrier Problems Within a Convex Payoff Structure — 3-Part Paper
 
 Original research on classification when the reward is a rule-constrained payout game rather than symmetric profit-and-loss. Shows why symmetric triple-barrier labels fail under convex payoff constraints, develops a label-health screening method that avoids economic overfitting, introduces an account-level bootstrap that treats the account itself as a second triple-barrier problem, and documents a forward-test failure that motivated a stricter eight-stage validation standard — same-count random baselines, probability of backtest overfitting, sealed quarantine holdouts, and sentiment/regime agreement gates.
 
-[📥 Download PDF](https://github.com/4SIGHTalgo/4SIGHTalgo/raw/main/saber_classification_triple_barrier_parts_1_to_3.pdf)
+[Download PDF](https://github.com/4SIGHTalgo/4SIGHTalgo/raw/main/saber_classification_triple_barrier_parts_1_to_3.pdf)
 
-### 🧪 finShell — Label & Backtest Validation Engine
+### finShell — Label & Backtest Validation Engine
 
 Model-free Python validation framework born directly from the paper above. Audits whether a label beats same-count random paths, fits selectors inside purged combinatorial cross-validation with block bootstrap, scores sealed out-of-sample quarantine data, and stress-tests economics with barrier-based Monte Carlo account paths. Deterministic, seeded, and schema-agnostic via column role mapping. Published on PyPI.
 
 [![PyPI](https://img.shields.io/pypi/v/finshell?style=flat-square&label=PyPI)](https://pypi.org/project/finshell/) [![Repo](https://img.shields.io/badge/GitHub-finShell-181717?style=flat-square&logo=github)](https://github.com/4SIGHTalgo/finShell)
 
-### 📈 Mid-Frequency ML Research Pipeline
+### Mid-Frequency ML Research Pipeline
 
 End-to-end research infrastructure for sequential prediction: event-driven candidate generation (CUSUM filters, information-driven bars), gradient-boosted classifiers tuned with Optuna, hidden Markov regime models trained walk-forward, decision-time sentiment scoring with leakage audits, purged cross-validation at scale, and live inference with regime routing and feature-freshness monitoring. Backed by PostgreSQL/Supabase storage and AWS compute.
 
-### 🧠 MQL5 Neural Network Library
-
-Deep learning implemented natively inside MetaTrader 5 — an environment with no ML support. Custom MLP, RNN, and LSTM architectures written from scratch in MQL5 behind a common model interface, trained with Adam, serialized to binary weight files, and deployed through Expert Advisors for real-time inference with zero external dependencies.
-
-[![Repo](https://img.shields.io/badge/GitHub-MQL5--Neural--Network--Library-181717?style=flat-square&logo=github)](https://github.com/4SIGHTalgo/MQL5-Neural-Network-Library)
-
-### 🔁 MLP Statistical Arbitrage
-
-Neural-network enhancement of classical correlation-based statistical arbitrage. A multilayer perceptron scans every major currency-pair combination and scores candidate trades, benchmarked against a plain Pearson/Spearman correlation strategy, with genetic and forward optimization used to control overfitting.
-
-[![Repo](https://img.shields.io/badge/GitHub-MQL5--Multi--Layer--Perception-181717?style=flat-square&logo=github)](https://github.com/4SIGHTalgo/MQL5-Mutli-Layer-Perception)
-
-### 🖥️ Backtest & Optimization App
+### Backtest & Optimization App
 
 Desktop research tool (Python/Tkinter) that combines data loading, a modular auto-discovered strategy catalogue, discrete trade simulation, Monte Carlo risk analysis (VaR, CVaR, equity confidence bands), and grid-search parameter optimization in one interface. Engine validated against TradingView with near-identical equity curves and trade statistics.
 
@@ -62,7 +74,6 @@ Desktop research tool (Python/Tkinter) that combines data loading, a modular aut
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![MQL5](https://img.shields.io/badge/MQL5-1B1F24?style=for-the-badge)
 
 **Machine Learning & Data**
 
@@ -83,15 +94,6 @@ Modeling toolkit: gradient boosting, feedforward/recurrent networks, hidden Mark
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![MetaTrader 5](https://img.shields.io/badge/MetaTrader%205-0A66C2?style=for-the-badge)
-
----
-
-## GitHub Stats
-
-![Paul's GitHub Stats](https://github-readme-stats.vercel.app/api?username=4SIGHTalgo&show_icons=true&theme=tokyonight)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=4SIGHTalgo&layout=compact&theme=tokyonight)
 
 ---
 
